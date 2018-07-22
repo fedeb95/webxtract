@@ -15,7 +15,7 @@ class Packet:
 
 class Http:
     regex = 'Hypertext Transfer Protocol'
-    data='Line-based text data: text/html\n(.*)'
+    data='Line-based text data: (.*)'
     request_uri='Request URI: ((/[\._&%$a-zA-Z0-9]+)+)'
     status_code='Status Code: ([0-9]+)'
 
