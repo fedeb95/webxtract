@@ -1,5 +1,6 @@
 # webxtract
-Reconstruct (partially) website structure from wireshark plain text export file
+Reconstruct (partially) website structure from wireshark plain text export file.
+
 Given `folder/plain.txt` a wireshark plain text capture file, run
 
 `python webxtract.py folder/plain.txt`
